@@ -11,3 +11,5 @@ account.toV3(password, { kdf: "scrypt", n: 8192 }).then((value) => {
     .replace(/[:]/g, "-")}--${address}.json`;
   fs.writeFileSync(file, JSON.stringify(value));
 });
+//npm i fs    npm i ethereumjs-wallet
+//node wi-bung.js privatekey password
